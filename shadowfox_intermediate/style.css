@@ -1,0 +1,447 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+body{
+    background-color:bisque;
+    align-items:center;
+    text-align:center;
+    margin-top:10px;
+}
+.clinic{
+    color:red;
+}
+.appointment-container {
+    width:500px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+     color:chocolate;
+}
+label{
+    font-size:20px;
+}
+
+button {
+    width: 280px;
+    padding: 15px;
+    background-color: #8b4f2f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #6f3d24;
+    transform: translateY(-3px);
+}
+
+button:hover {
+    transform: translateY(-3px);
+}   
+
+
+.form{
+    margin-top:20px;
+    
+}
+
+img{
+    margin-top:20px;
+    width:300px;
+    height:200px;
+
+}
+h1{
+    text-align:center;
+    align-items:center;
+}
+
+p{
+    font-size:20px;
+    margin-top:20px;
+    color:cadetblue;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+pre{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+emergency{
+    color:rosybrown;
+    background-color:lightsalmon;
+    padding:px;
+    margin-top:20px;
+    align-items:center;
+    border-radius:10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align:center;
+}
+
+.emergency-form {
+     width:500px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+     color:chocolate;
+}
+button{
+    margin-top:10px;
+    font-style:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+}
+.emergency{
+    margin-top:30px;
+    padding:20px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    background-color:#8b4f2f;
+    border-bottom: 2px solid #8b5a3c;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:aliceblue;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color:antiquewhite;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 5px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: red;
+    border-bottom: 2px solid #8b4f2f;
+}
+.footer {
+    background-color: #805333;
+    color: #f8ead3;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.contact-details {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+footer h3{
+    margin-top:0;
+}
+
+.contact-details p {
+    margin: 0;
+}
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #b98b68;
+    padding: 15px;
+
+}
+@media (max-width: 768px) {
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+title{
+    color:#D32F2F;
+}
+.choose{
+    width:500px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    color:chocolate;
+
+}
+.choose h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.choose p{
+    margin-bottom:20px;
+    line-height:1.4;
+}
+.doctor-intro {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+.clinic-history{
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.vision-mission {
+    
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+.vision-mission h2{
+    margin-top:20px;
+}
+.team {
+    width: 800px;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    color: chocolate;
+
+    /* 2-column doctor layout */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+/* Team heading */
+.team h2 {
+    grid-column: 1 / -1;
+    color: chocolate;
+    margin-bottom: 10px;
+}
+
+/* Team introduction */
+.team p {
+    grid-column: 1 / -1;
+    color: #6F9DA5;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Doctor names */
+.team h3 {
+    color: #8B5438;
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+
+/* Doctor specialties */
+.team p {
+    color: #6F9DA5;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0 15px;
+}
+
+/* Responsive: one column on smaller screens */
+@media (max-width: 700px) {
+    .team {
+        width: 90%;
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+}
+img{
+    height:100px;
+    width:150px;
+    margin-bottom:10px;
+}
+
+.treatments {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+
+/* Main Heading */
+.treatments h1 {
+    text-align: center;
+    color: #5F3826;
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+
+/* Introduction */
+.treatment-intro {
+    text-align: center;
+    color: #6F9DA5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+
+/* Treatment Card */
+.treatment-card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 35px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+
+    border-left: 5px solid #8B5438;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+
+/* Card Hover Effect */
+.treatment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+}
+
+
+/* Treatment Image */
+.treatment-card img {
+    width: 260px;
+    height: 190px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    flex-shrink: 0;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+
+    transition: transform 0.3s ease;
+}
+
+
+/* Image Hover */
+.treatment-card:hover img {
+    transform: scale(1.03);
+}
+
+
+/* Treatment Content */
+.treatment-content {
+    flex: 1;
+}
+
+
+/* Treatment Heading */
+.treatment-content h2 {
+    color: #8B5438;
+    font-size: 27px;
+
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+/* Treatment Description */
+.treatment-content p {
+    color: #6F9DA5;
+    font-size: 16px;
+    line-height: 1.7;
+
+    margin: 0;
+
+    font-weight: 500;
+}
+
+
+/* Bold Text */
+.treatment-content b {
+    color: #70432F;
+}
+
+
+/* Alternating Cards */
+.treatment-card:nth-of-type(even) {
+    flex-direction: row-reverse;
+
+    border-left: none;
+    border-right: 5px solid #8B5438;
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .treatments {
+        width: 90%;
+    }
+
+    .treatments h1 {
+        font-size: 30px;
+    }
+
+    .treatment-card {
+        flex-direction: column !important;
+        text-align: center;
+
+        padding: 20px;
+    }
+
+    .treatment-card img {
+        width: 100%;
+        max-width: 350px;
+        height: 220px;
+    }
+
+    .treatment-card:nth-of-type(even) {
+        border-right: none;
+        border-left: 5px solid #8B5438;
+    }
+
+    .treatment-content h2 {
+        font-size: 23px;
+    }
+
+    .treatment-content p {
+        font-size: 15px;
+    }
+}

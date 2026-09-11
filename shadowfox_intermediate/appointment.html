@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointement form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="appointment-container">
+        <h1>Fill the Appointement Form.</h1>
+        <form class="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+        <!--optional to add preferred doctor (not doctors of sakthi hospital. Only for example ) -->
+        <label for="Doctor">Preferred Doctor:</label>
+        <select id="Doctor" name="Doctor" required>
+            <option value="">Select a doctor</option>
+            <option value="dr">Dr. Anupriya</option>
+            <option value="doc">Dr. Ananya Iyer(Prosthodontist)</option>
+            <option value="doctor">Dr.Meera Subramanian(Endodontist)</option>
+            <option value="doctor">Dr.Arvind Kumar(Dental Surgeon)</option>
+            <option value="doctor">Dr.Sneha N(Orthodontist)</option>
+            <option value="doctor">Dr.Srinivas Rohit Ramanujan(Implantologist)</option>
+            <option value="doctor">Dr.Balu(Laser Surgeon) </option>
+            <option value="doctor">Dr.Vikram Raj Kishore(Aligners Partner)</option>
+            <option value="doctor">Dr.Ajay Jumar(Oral & Maxillofacial Surgeon)</option>   
+        </select>
+        <br><br>
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required>
+        <br><br>
+        <input type="submit" value="Book Appointment">
+    </form>
+    <p id="successMessage"></p>
+</div>
+
+<script>
+    const form = document.querySelector(".form");
+    form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    document.getElementById("successMessage").textContent =
+        "Your appointment has been booked successfully!";
+        form.reset();
+    });
+</script>
+</button>
+</body>
+</html>
