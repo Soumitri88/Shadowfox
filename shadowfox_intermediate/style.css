@@ -83,7 +83,7 @@ pre {
     box-sizing: border-box;
 }
 .emergency{
-    background-color:chocolate;
+    background-color:rgb(213, 140, 88);
     padding:20px;
     margin-top:20px;
     align-items:center;
@@ -227,7 +227,7 @@ title{
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     box-sizing: border-box;
-    color:chocolate;
+    color:#208395;
 
 }
 .choose h2{
@@ -545,6 +545,129 @@ title{
     line-height: 1.6;
     margin-bottom: 25px;
     text-align: left;
+}
+.about-hero{
+    margin-top:20px;
+    color:black;
+}
+.doctor-text p{
+    color:#6F9DA5;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.doctor-text h2{
+    color:#805333;
+    font-size: 32px;
+    margin-bottom:15px;
+}
+
+.clinic-history h2{
+     color:#805333;
+    font-size: 32px;
+    margin-bottom:15px;
+
+}
+.clinic-history p{
+     color:#6F9DA5;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+
+.vision-card h2{
+    color:#805333;
+    font-size: 32px;
+    margin-bottom:15px;
+
+}
+.vision-card p{
+     color:#6F9DA5;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 40px;
+
+    background-color: #f8dfbf;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    width: 50%;
+    text-align: left;
+}
+
+.contact-info {
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form h2,
+.contact-info h2 {
+    color: #5c4033;
+    margin-bottom: 25px;
+}
+
+.contact-form label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #4f5d61;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #805333;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-info p {
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: #4f5d61;
+    text-align: center;
+}
+
+.hero{
+    color:#208395;
 }
 
 
