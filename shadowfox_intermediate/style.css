@@ -786,124 +786,39 @@ img{
 }
 
 
-/* Smaller mobile screens */
-/* =========================================
-   FINAL MOBILE RESPONSIVE CODE
-   ========================================= */
-
 @media screen and (max-width: 768px) {
 
-    html,
-    body {
-        width: 100%;
-        min-width: 100%;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-
-    /* NAVBAR */
     .navbar {
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
-        align-items: center !important;
-
         width: 100% !important;
-        min-width: 100% !important;
-        max-width: 100% !important;
-
+        height: auto !important;
         margin: 0 !important;
         padding: 15px 10px !important;
-
         box-sizing: border-box !important;
-        flex-shrink: 0 !important;
-    }
-
-    /* LOGO */
-    .logo {
-        width: 100% !important;
-        max-width: 100% !important;
-
-        text-align: center !important;
-
-        margin: 0 0 12px 0 !important;
-        padding: 0 !important;
-
-        box-sizing: border-box !important;
-    }
-
-    /* NAVIGATION LINKS */
-    .nav-links {
-        width: 100% !important;
-        min-width: 100% !important;
-        max-width: 100% !important;
 
         display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: wrap !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
 
+    .logo {
+        width: 100% !important;
+        margin: 0 0 15px 0 !important;
+        text-align: center !important;
+        box-sizing: border-box !important;
+    }
+
+    .nav-links {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+
+        display: flex !important;
+        flex-wrap: wrap !important;
         justify-content: center !important;
         align-items: center !important;
 
-        gap: 10px 15px !important;
-
-        margin: 0 !important;
-        padding: 0 !important;
-
+        gap: 10px !important;
         box-sizing: border-box !important;
-    }
-
-    .nav-links li {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    .nav-links li a {
-        white-space: nowrap !important;
-    }
-}
-
-
-/* =========================================
-   VERY SMALL MOBILE SCREENS
-   ========================================= */
-
-@media screen and (max-width: 480px) {
-
-    html,
-    body {
-        width: 100%;
-        min-width: 100%;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-    .navbar {
-        width: 100% !important;
-        min-width: 100% !important;
-        padding: 12px 5px !important;
-    }
-
-    .logo {
-        width: 100% !important;
-        font-size: 20px;
-        text-align: center !important;
-    }
-
-    .nav-links {
-        width: 100% !important;
-        min-width: 100% !important;
-
-        justify-content: center !important;
-        flex-wrap: wrap !important;
-
-        gap: 7px 10px !important;
-    }
-
-    .nav-links li a {
-        font-size: 13px;
-        padding: 5px 3px;
     }
 }
