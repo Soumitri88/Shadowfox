@@ -83,7 +83,6 @@ pre {
     box-sizing: border-box;
 }
 .emergency{
-    color:;
     background-color:chocolate;
     padding:20px;
     margin-top:20px;
@@ -221,7 +220,7 @@ title{
     color:#D32F2F;
 }
 .choose{
-    width:500px;
+    width:90%;
     margin: 40px auto;
     padding: 40px;
     background-color: white;
