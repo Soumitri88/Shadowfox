@@ -671,5 +671,23 @@ title{
     color:#208395;
     margin-top: 10px;
 }
+@media screen and (max-width: 768px) {
+
+    .appointment-container {
+        width: 90%;
+        max-width: 500px;
+        padding: 25px 20px;
+        box-sizing: border-box;
+    }
+
+    .appointment-container input,
+    .appointment-container select,
+    .appointment-container textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+}
 
 
