@@ -70,8 +70,13 @@ p{
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-pre{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+pre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 emergency{
     color:rosybrown;
