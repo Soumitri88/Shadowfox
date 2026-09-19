@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.profile{
+  background-color:rgb(92, 151, 203);
+}
 .navbar{
     display:flex;
     justify-content:space-around;
