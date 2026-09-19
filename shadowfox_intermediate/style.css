@@ -661,46 +661,162 @@ img{
 }
 
 /* Mobile */
-@media (max-width: 700px) {
-    .faq {
-        width: 90%;
-        padding: 25px;
-    }
+/* ==============================
+   MOBILE SCREEN ONLY
+   ============================== */
 
-    .faq h1 {
-        font-size: 26px;
-    }
+@media screen and (max-width: 768px) {
 
-    .faq h3 {
-        font-size: 17px;
-    }
-
-    .faq p {
-        font-size: 15px;
-    }
-}
-@media (max-width: 768px) {
-
+    /* Navbar */
     .navbar {
-        width: 100vw;
-        display: block;
-        padding: 15px 0;
+        width: 100%;
+        padding: 15px 10px;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
     }
 
     .logo {
+        width: 100%;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     .nav-links {
         width: 100%;
+        padding: 0;
+        margin: 0;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 10px;
-        padding: 0;
-        margin: 0;
         box-sizing: border-box;
+    }
+
+    /* Appointment */
+    .appointment-container {
+        width: 90%;
+        max-width: 500px;
+        box-sizing: border-box;
+        margin: 40px auto;
+    }
+
+    /* Home */
+    .hero {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 10px;
+    }
+
+    .hero img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    /* About */
+    .doctor-intro,
+    .clinic-history,
+    .vision-mission {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    .team {
+        width: 90%;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Treatments */
+    .treatments {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    .treatment-card {
+        flex-direction: column;
+    }
+
+    .treatment-card:nth-of-type(even) {
+        flex-direction: column;
+    }
+
+    .treatment-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* FAQ */
+    .faq {
+        width: 90%;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Contact */
+    .contact-section {
+        width: 90%;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+
+    .contact-form,
+    .contact-info {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Footer */
+    .contact-details {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+
+/* Smaller mobile screens */
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        width: 100%;
+        padding: 12px 5px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        gap: 6px 10px;
+    }
+
+    .nav-links li a {
+        font-size: 13px;
+    }
+
+    .appointment-container {
+        width: 92%;
+    }
+
+    .choose,
+    .team,
+    .faq {
+        width: 92%;
+    }
+
+    .contact-section {
+        width: 92%;
     }
 }
